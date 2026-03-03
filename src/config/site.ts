@@ -2,7 +2,7 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_BASE_URL || "https://your-portfolio.vercel.app",
   author: {
     name: { ko: "송지현", en: "Jihyun Song" },
-    title: "Security Researcher & Developer" ,
+    title: { ko: "보안 연구자 & 개발자", en: "Security Researcher & Developer" },
     email: "jihyun1710@gmail.com",
   },
   social: {
