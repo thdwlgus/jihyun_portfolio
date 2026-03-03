@@ -24,16 +24,16 @@
 
 /* Dark mode overrides */
 .dark {
-  --color-background: #09090b;
+  --color-background: #0f0f0f;
   --color-foreground: #fafafa;
   --color-card: #18181b;
   --color-card-foreground: #fafafa;
   --color-muted: #27272a;
   --color-muted-foreground: #a1a1aa;
   --color-border: #27272a;
-  --color-accent: #38bdf8;
+  --color-accent: #E8354A;
   --color-accent-foreground: #0c0a09;
-  --color-accent-secondary: #34d399;
+  --color-accent-secondary: #C8102E;
   --color-section-alt: #111114;
 }
 
