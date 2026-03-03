@@ -10,8 +10,8 @@
   },
   "hero": {
     "greeting": "안녕하세요",
-    "name": "홍길동",
-    "title": "Security Compliance Engineer",
+    "name": "송지현",
+    "title": "Security Researcher & Developer",
     "subtitle": "Cloud Native 환경에서 합리적인 정보보호 체계를 구축합니다",
     "cta_resume": "포트폴리오",
     "cta_contact": "연락하기"
@@ -48,7 +48,7 @@
     "linkedin": "LinkedIn"
   },
   "footer": {
-    "copyright": "© 2026 홍길동. All rights reserved.",
+    "copyright": "© 2026 송지현. All rights reserved.",
     "built_with": "Built with Awesome Portfolio Template"
   },
   "common": {
