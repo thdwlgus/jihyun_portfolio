@@ -10,8 +10,8 @@
   },
   "hero": {
     "greeting": "Hello",
-    "name": "John Doe",
-    "title": "Security Compliance Engineer",
+    "name": "Jihyun Song",
+    "title": "Security Researcher & Developer",
     "subtitle": "Building pragmatic information security frameworks in Cloud Native environments",
     "cta_resume": "View Portfolio",
     "cta_contact": "Get in Touch"
@@ -48,7 +48,7 @@
     "linkedin": "LinkedIn"
   },
   "footer": {
-    "copyright": "© 2026 John Doe. All rights reserved.",
+    "copyright": "© 2026 Jihyun Song. All rights reserved.",
     "built_with": "Built with Awesome Portfolio Template"
   },
   "common": {
