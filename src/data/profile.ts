@@ -34,8 +34,4 @@ export const profile = {
       date: "2014.02.",
     },
   ],
-  military: {
-    ko: "육군 통신병 만기 제대 | 2012.06.",
-    en: "ROK Army Signal Corps, Honorable Discharge | Jun 2012",
-  },
 };
