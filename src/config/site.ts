@@ -33,8 +33,8 @@ export const siteConfig = {
     titleTemplate: "%s | Jihyun Song",
     defaultTitle: "Jihyun Song | Security Researcher & Developer",
     description:
-      "Personal portfolio showcasing my professional experience, projects, and achievements.",
-    keywords: ["portfolio", "software engineer", "developer"],
+      "Information security undergraduate specializing in AI/ML-based threat detection, log analysis, and security automation.",
+    keywords: ["information security", "security researcher", "developer"],
   },
   googleVerification: "",
 };
