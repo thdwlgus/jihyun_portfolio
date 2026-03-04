@@ -12,16 +12,16 @@
     "greeting": "Hello",
     "name": "Jihyun Song",
     "title": "Security Researcher & Developer",
-    "subtitle": "Building pragmatic information security frameworks in Cloud Native environments",
+    "subtitle": "Detect, Analyze, Automate",
     "cta_resume": "View Portfolio",
     "cta_contact": "Get in Touch"
   },
   "about": {
     "heading": "About",
-    "description_1": "Experienced information security professional across specialized firms, government agencies, financial institutions, e-commerce, and startups. Committed to building pragmatic security frameworks that consider service, operations, and development holistically.",
-    "description_2": "Continuously researching AWS and Kubernetes security, aiming to become a leading Security Compliance Engineer.",
-    "description_3": "As the sole security officer at a Series B startup with 300 employees operating an e-commerce platform in a Cloud Native environment, I prepared and achieved ISMS/27001/27701 initial audits from scratch without consulting — with particular strengths in building information security management systems tailored for AWS and Kubernetes.",
-    "keywords": ["ISMS", "ISO 27001", "Compliance", "Policy Automation", "AWS Security", "Kubernetes"]
+    "description_1": "Magoring in S/W Convergence and having gone through Whitehat School, I have builet hands-on research experience in log analysis, threat detection, and security automation. I focus not just on implementation, but on designing practical security systems that can respond to real-world threats.",
+    "description_2": "Building on that experience, I conuinue to broaden my perspective on security research, with the goal of pursuing deeper study through graduate school in 2026",
+    "description_3": "I have developend and led projects including an open-source email security solution using ML ensembles, a user behavior-based anomaly detection system for Google Workspace, an OCSF-based security log integration and analysis framework, and a malicious document-focused email security solution.",
+    "keywords": ["Information Security", "Security Researcher", "Developer"]
   },
   "experience": {
     "heading": "Experience"
