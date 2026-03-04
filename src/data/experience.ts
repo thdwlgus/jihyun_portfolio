@@ -51,13 +51,13 @@ export const experiences: Experience[] = [
     endDate: "2025-09",
     description: [
       "Top20 우수 수료",
-      "전체 과제 100% 완료",
       "OCSF 기반 보안 로그 통합 및 분석 프로젝트 (PM)",
+      "한국정보보호학회 논문 게재"
     ],
     descriptionEn: [
       "Top20 Outstanding Graduate",
-      "Completed all assignments (100% completion rate)",
       "OCSF-based Security Log Integration & Analysis Project (PM)",
+      "Published paper in Korea Institute of Information Security & Cryptology (KIISC)"
     ],
     tags: ["OCSF", "Log Analysis", "Threat Detection", "CVE Analysis", "PoC"],
   },
