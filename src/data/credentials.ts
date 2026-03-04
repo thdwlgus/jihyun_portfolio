@@ -30,7 +30,7 @@ export const certifications: Certification[] = [
   },
   {
     name: "정보처리기사 필기 합격",
-    nameEn: "Engineer Information Processing",
+    nameEn: "Engineer Information Processing (Written Exam Passed)",
     date: "2025.03.12.",
     issuer: "한국산업인력공단",
     issuerEn: "Human Resources Development Service of Korea",
