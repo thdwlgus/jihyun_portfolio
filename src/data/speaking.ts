@@ -39,7 +39,7 @@ export const talks: Talk[] = [
     highlight: true,
   },
   {
-    title: "Cuckoo Sandboxo를 이용한 악성 메일 탐지 모델 연구",
+    title: "Cuckoo Sandbox를 이용한 악성 메일 탐지 모델 연구",
     titleEn: "A Study on the Malicious Mail Detection Model Using Cuckoo Sandbox",
     date: "2025.06.",
     venue: "한국융합보안학회 하계학술대회",
