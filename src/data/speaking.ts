@@ -31,7 +31,7 @@ export const talks: Talk[] = [
   },
   {
     title: "사용자 행위 기반 구글 워크스페이스 분석 및 이상 탐지 연구",
-    titleEn: "A Study on the Malicious Mail Detection Model Using Cuckoo Sandbox",
+    titleEn: "A Study on Analysis and Anomaly Detection of Google Workspace Based on User Behavior",
     date: "2025.12.",
     venue: "한국융합보안학회 추계학술대회",
     venueEn: "KCSA Fall Conference",
@@ -40,7 +40,7 @@ export const talks: Talk[] = [
   },
   {
     title: "Cuckoo Sandboxo를 이용한 악성 메일 탐지 모델 연구",
-    titleEn: "From Startup to Scale: An Architecture Evolution Story",
+    titleEn: "A Study on the Malicious Mail Detection Model Using Cuckoo Sandbox",
     date: "2025.06.",
     venue: "한국융합보안학회 하계학술대회",
     venueEn: "KCSA Summer Conference",
