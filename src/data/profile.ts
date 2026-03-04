@@ -24,14 +24,5 @@ export const profile = {
       degreeEn: "Bachelor's'",
       date: "Present",
     },
-    {
-      school: "서울과학기술대학교",
-      schoolEn: "Seoul National University of Science",
-      major: "소프트웨어학과",
-      majorEn: "Software Engineering",
-      degree: "학사",
-      degreeEn: "Bachelor's",
-      date: "2014.02.",
-    },
   ],
 };
