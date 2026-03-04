@@ -45,10 +45,20 @@ export const talks: Talk[] = [
     venue: "한국융합보안학회 하계학술대회",
     venueEn: "KCSA Summer Conference",
     slidesUrl: "https://drive.google.com/file/d/1OfybJoTgEwLogo9_4zcRnb1IkRW4q42i/view?usp=drive_link",
+    highlight: true,
   },
 ];
 
 export const communities: Community[] = [
+  {
+    role: "아기사자",
+    roleEn: "Member",
+    organization: "멋쟁이사자처럼 14기",
+    organizationEn: "LikeLion 14th",
+    period: "2026.01. ~ Present",
+    periodEn: "Jan 2025 — Present",
+    active: true,
+  },
   {
     role: "운영진",
     roleEn: "Organizer",
@@ -56,7 +66,7 @@ export const communities: Community[] = [
     organizationEn: "LikeLion 13th",
     period: "2025.01. ~ 2025.12",
     periodEn: "Jan 2025 — Dec 2025",
-    active: true,
+    active: false,
   },
   {
     role: "회장",
@@ -65,7 +75,7 @@ export const communities: Community[] = [
     organizationEn: "LikeLion 12th",
     period: "2024.01. ~ 2024.12.",
     periodEn: "Jan 2024 — Dec 2024",
-    active: true,
+    active: false,
   },
   {
     role: "임원",
@@ -74,7 +84,7 @@ export const communities: Community[] = [
     organizationEn: "Department Student Council",
     period: "2024.01. ~ 2024.12",
     periodEn: "Jan 2024 — Dec 2024",
-    active: true,
+    active: false,
   },
   {
     role: "부원",
@@ -83,7 +93,7 @@ export const communities: Community[] = [
     organizationEn: "Department Student Council",
     period: "2023.01. ~ 2023.12.",
     periodEn: "Jan 2023 — Dec 2023",
-    active: true,
+    active: false,
   },
   {
     role: "팀장",
@@ -92,7 +102,7 @@ export const communities: Community[] = [
     organizationEn: "Web Development Study Group",
     period: "2023.09. ~ 2023.12.",
     periodEn: "Sep 2023 — Dec 2023",
-    active: true,
+    active: false,
   },
   {
     role: "부원",
@@ -101,7 +111,7 @@ export const communities: Community[] = [
     organizationEn: "Team S.C.P",
     period: "2022.09. ~ 2023.09.",
     periodEn: "Sep 2022 — Sep 2023",
-    active: true,
+    active: false,
   },
   {
     role: "팀장",
@@ -110,6 +120,6 @@ export const communities: Community[] = [
     organizationEn: "C Programming Study Group",
     period: "2022.07. ~ 2022.09.",
     periodEn: "Jul 2022 — Sep 2022",
-    active: true,
+    active: false,
   },
 ];
