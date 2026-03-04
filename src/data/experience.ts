@@ -16,6 +16,29 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    company: "CCIT 정보보안 SW융합전공",
+    companyEn: "Cultural Contents & Information Technology",
+    role: "학생",
+    roleEn: "Student",
+    team: "중부대학교",
+    teamEn: "Joongbu University",
+    period: "2025.03. ~ 2025.12",
+    periodEn: "Mar 2025 — Dec 2025",
+    startDate: "2025-03",
+    endDate: "2025-12",
+    description: [
+      "오픈소스 이메일 보안 솔루션 (PM)",
+      "사용자 행위 기반 구글 워크스페이스 분석 및 이상 탐지 솔루션 개발",
+      "한국융합보안학회 하계, 추계 학술대회 논문 투고"
+    ],
+    descriptionEn: [
+      "Open-source Email Security Solution (PM)",
+      "Developed Google Workspace Anomaly Detection Solution based on User Behavior Analysis",
+      "Submitted paper to Korea Convergence Security Association (KCSA) Summer & Fall Conference"
+    ],
+    tags: ["ML", "AI", "Email Security", "Google Workspace", "Log Analysis"],
+  },
+  {
     company: "화이트햇 스쿨 3기",
     companyEn: "Whitehat School 3rd Cohort",
     role: "교육생",
@@ -38,28 +61,6 @@ export const experiences: Experience[] = [
     ],
     tags: ["OCSF", "Log Analysis", "Threat Detection", "CVE Analysis", "PoC"],
   },
-  {
-    company: "스타트업AI",
-    companyEn: "StartupAI",
-    role: "풀스택 개발자",
-    roleEn: "Full Stack Developer",
-    team: "프로덕트팀",
-    teamEn: "Product Team",
-    period: "2020.01. ~ 2022.02.",
-    periodEn: "Jan 2020 — Feb 2022",
-    startDate: "2020-01",
-    endDate: "2022-02",
-    description: [
-      "AI 기반 추천 시스템의 프론트엔드 및 백엔드 개발",
-      "GraphQL API 설계 및 React 기반 대시보드 구축",
-      "사용자 행동 분석 파이프라인 구축으로 전환율 25% 향상",
-    ],
-    descriptionEn: [
-      "Developed frontend and backend for AI-powered recommendation system",
-      "Designed GraphQL APIs and built React-based analytics dashboard",
-      "Improved conversion rate by 25% through user behavior analysis pipeline",
-    ],
-    tags: ["React", "GraphQL", "Python", "Docker", "Redis"],
-  },
+
  
 ];
