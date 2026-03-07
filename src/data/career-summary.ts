@@ -73,19 +73,19 @@ export const careerHighlights: CareerHighlight[] = [
 
 export const coreCompetencies = [
   {
-    ko: "대규모 시스템 아키텍처 설계 및 마이크로서비스 전환",
-    en: "Large-scale system architecture design and microservices migration",
+    ko: "보안 로그 분석 & 위협 탐지",
+    en: "Security Log Analysis & Threat Detection",
   },
   {
-    ko: "성능 최적화 및 데이터 기반 의사결정",
-    en: "Performance optimization and data-driven decision making",
+    ko: "AI/ML 기반 보안 연구",
+    en: "AI/ML-based Security Research",
   },
   {
-    ko: "CI/CD 파이프라인 구축 및 인프라 자동화",
-    en: "CI/CD pipeline construction and infrastructure automation",
+    ko: "오픈소스 보안 도구 활용",
+    en: "Open-source Security Tool Integration",
   },
   {
-    ko: "팀 리더십 및 개발 문화 조성",
-    en: "Team leadership and engineering culture cultivation",
+    ko: "보안 프로젝트 리더십",
+    en: "Security Project Leadership",
   },
 ];
