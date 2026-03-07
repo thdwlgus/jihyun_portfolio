@@ -22,8 +22,8 @@ export interface CareerDetailSection {
 
 export const careerDetailSections: CareerDetailSection[] = [
   {
-    id: "microservices",
-    title: "마이크로서비스 아키텍처 전환",
+    id: "OCSF",
+    title: "OCSF 기반 보안 로그 통합 및 분석 프로젝트",
     titleEn: "Microservices Architecture Migration",
     background: [
       {
