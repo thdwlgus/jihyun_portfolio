@@ -6,90 +6,68 @@ export interface CareerHighlight {
 }
 
 export const careerOverview = {
-  ko: "8년간의 소프트웨어 엔지니어링 경력을 통해 대규모 서비스의 아키텍처 설계부터 성능 최적화, 팀 리딩까지 폭넓은 경험을 쌓아왔습니다. 사용자 중심의 문제 해결과 데이터 기반 의사결정을 통해 기술이 비즈니스 성장의 핵심 동력이 되도록 설계하는 것을 지향합니다.",
-  en: "Over 8 years of software engineering experience spanning architecture design for large-scale services, performance optimization, and team leadership. I focus on user-centric problem solving and data-driven decisions to ensure technology serves as a core driver of business growth.",
+  ko: "정보보호학전공 학부생으로 로그 분석·위협 탐지·보안 자동화 분야에서 경험을 쌓아왔습니다. CCIT 정보보안 SW융합전공, Whitehat School 3기 활동을 통해 공격과 방어 양면의 보안 역량을 키웠으며, 학술 논문 게재 및 다수의 프로젝트 리드 경험을 보유하고 있습니다.",
+  en: "As an Information Security undergraduate, I have built experience in log analysis, threat detection, and security automation. Through the CCIT information Security & SW Covergency program and Whitehat School 3rd cohort, I have developed both offensive and defensive security capabilities, with experience in academic paper publication and leading multiple projects.",
 };
 
 export const careerHighlights: CareerHighlight[] = [
   {
-    title: "마이크로서비스 아키텍처 전환",
+    title: "로그 분석 & 위협 탐지",
     titleEn: "Microservices Architecture Migration",
     items: [
-      "모놀리식 시스템을 12개 마이크로서비스로 성공적으로 분리",
-      "서비스 간 통신을 위한 이벤트 드리븐 아키텍처 설계",
-      "무중단 마이그레이션 전략 수립 및 실행",
+      "OCSF 기반 보안 로그 통합 및 분석 프로젝트 (PM)",
+      "Sigma Rule 활용 위협 탐지 자동화 파이프라인 구축",
+      "한국정보보호학회(KIISC) 논문 게재",
     ],
     itemsEn: [
-      "Successfully decomposed monolithic system into 12 microservices",
-      "Designed event-driven architecture for inter-service communication",
-      "Planned and executed zero-downtime migration strategy",
+      "OCSF-based Security Log Integration & Analysis Project (PM)",
+      "Built automated threat detection pipeline using Sigma Rules",
+      "Published paper in Korea Institute of Information Security & Cryptology (KIISC)",
     ],
   },
   {
-    title: "대규모 트래픽 성능 최적화",
+    title: "오픈소스 이메일 보안 솔루션",
     titleEn: "Large-Scale Traffic Performance Optimization",
     items: [
-      "초당 10,000 요청 처리를 위한 캐싱 전략 및 데이터베이스 최적화",
-      "CDN 구성 및 정적 자산 최적화로 응답 시간 60% 단축",
-      "APM 도입 및 성능 모니터링 체계 구축",
+      "머신러닝(앙상블, 나이브베이즈, 랜덤포레스트, 로지스틱 회귀 등) 기반 스팸·악성 메일 탐지 모델 구축",
+      "Spam Assassin·ClamAV·Cuckoo Sandbox 연동 통합 보안 파이프라인 구현",
+      "한국융합보안학회(KCSA) 하계 학술대회 논문 장려상 수상",
     ],
     itemsEn: [
-      "Caching strategy and database optimization for 10,000 requests per second",
-      "Reduced response time by 60% through CDN configuration and static asset optimization",
-      "Introduced APM and established performance monitoring framework",
+      "Built spam & malicious email detection model using ML algorithms (Ensemble, Naive Bayes, Random Forest, Logistic Regression)",
+      "Implemented integrated security pipeline with SpamAssassin, ClamAV, and Cuckoo Sandbox",
+      "Ecouragement Award at Korea Convergency Security Association (KCSA) Summer Conference",
     ],
   },
   {
-    title: "개발 문화 및 팀 리더십",
+    title: "사용자 행위 기반 구글 워크스페이스 분석 및 이상 탐지 솔루션",
     titleEn: "Engineering Culture & Team Leadership",
     items: [
-      "코드 리뷰 문화 정착 및 팀 내 기술 공유 세미나 운영",
-      "주니어 개발자 온보딩 프로그램 설계 및 멘토링",
-      "애자일 프로세스 도입으로 스프린트 완료율 30% 향상",
+      "사용자 행위 분석 기반 이상 징후 탐지 솔루션 구축",
+      "구글 워크스페이스 로그 수집 및 행위 패턴 분석 파이프라인 구축",
+      "한국융합보안학회(KCSA) 추계 학술대회 우수 논문상 수상",
     ],
     itemsEn: [
-      "Established code review culture and ran internal tech sharing seminars",
-      "Designed junior developer onboarding program and mentoring",
-      "Improved sprint completion rate by 30% through agile process adoption",
+      "Developed anomaly detection solution based on user behavior analysis",
+      "Built Google Workspace log collection and behavior pattern analysis pipeline",
+      "Best Paper Award at Korea Convergence SEcurity Association (KCSA) Fall Conference",
     ],
   },
   {
-    title: "CI/CD 및 인프라 자동화",
+    title: "커뮤니티 리더십",
     titleEn: "CI/CD & Infrastructure Automation",
     items: [
-      "GitHub Actions 기반 CI/CD 파이프라인 구축 및 운영",
-      "Infrastructure as Code를 활용한 클라우드 인프라 관리",
-      "컨테이너 오케스트레이션 환경 구축 및 자동 스케일링 구현",
+      "멋쟁이사자처럼 12기 회장 역임 - 기수 운영 및 프로젝트 총괄",
+      "멋쟁이사자처럼 13기 운영진 - 교육 설계 및 멘토링",
+      "학과 학생회 임원으로 학생 대표 활동",
+      "웹 개발·C언어 스터디 등 팀장으로 팀 학습 주도",
     ],
     itemsEn: [
-      "Built and operated CI/CD pipelines using GitHub Actions",
-      "Managed cloud infrastructure with Infrastructure as Code",
-      "Set up container orchestration with auto-scaling capabilities",
+      "Served as President of LikeLion 12th cohort - led operations and project management",
+      "Served as Organizer of LikeLion 13th cohort - designed curriculum and mentored members",
+      "Served as Executive of Department Student Council as student representative",
+      "Led team learning as Team Lead of Web Development & C Programming study groups",
     ],
-  },
-  {
-    title: "오픈소스 기여 및 커뮤니티 활동",
-    titleEn: "Open Source Contributions & Community",
-    items: [
-      "CLI 스캐폴딩 도구 오픈소스 프로젝트 주도 개발",
-      "기술 블로그 및 컨퍼런스 발표를 통한 지식 공유",
-      "AI를 활용한 개발 생산성 도구 자체 개발 및 배포",
-    ],
-    itemsEn: [
-      "Led development of open-source CLI scaffolding tool",
-      "Shared knowledge through tech blog and conference talks",
-      "Self-developed and deployed developer productivity tools leveraging AI",
-    ],
-    // Sub-tools list for display
-  },
-];
-
-export const selfDevelopedTools = [
-  { ko: "프로젝트 스캐폴딩 CLI 도구", en: "Project Scaffolding CLI Tool" },
-  { ko: "API 문서 자동 생성기", en: "API Documentation Auto-Generator" },
-  {
-    ko: "데이터베이스 마이그레이션 검증 도구",
-    en: "Database Migration Validation Tool",
   },
 ];
 
