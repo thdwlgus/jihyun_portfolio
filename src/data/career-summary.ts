@@ -71,6 +71,13 @@ export const careerHighlights: CareerHighlight[] = [
   },
 ];
 
+export const selfDevelopedTools = [
+  {
+    ko: "OCSF 기반 이기종 보안 로그 통합 프레임워크",
+    en: "OCSF-based Heterogeneous Security Log Integration Framework",
+  },
+];
+
 export const coreCompetencies = [
   {
     ko: "보안 로그 분석 & 위협 탐지",
