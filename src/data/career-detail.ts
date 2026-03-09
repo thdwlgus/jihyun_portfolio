@@ -24,7 +24,7 @@ export const careerDetailSections: CareerDetailSection[] = [
   {
     id: "OCSF",
     title: "OCSF 기반 보안 로그 통합 및 분석 프로젝트",
-    titleEn: "OCSF-Based SEcurity Log Integration and Analysis",
+    titleEn: "OCSF-Based Security Log Integration and Analysis",
     background: [
       {
         text: "Nginx, BIND9, AWS CloudTrail 등 환경마다 포맷이 상이한 로그들은 각각의 구조를 개별적으로 파악해야 했고, 이는 분석 효율을 크게 저하시켰습니다.",

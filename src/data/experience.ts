@@ -18,8 +18,8 @@ export const experiences: Experience[] = [
   {
     company: "CCIT 정보보안 SW융합전공",
     companyEn: "Cultural Contents & Information Technology",
-    role: "학생",
-    roleEn: "Student",
+    role: "학부 연구생",
+    roleEn: "Undergraduate Researcher",
     team: "중부대학교",
     teamEn: "Joongbu University",
     period: "2025.03. ~ 2025.12",

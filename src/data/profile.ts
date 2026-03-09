@@ -18,7 +18,7 @@ export const profile = {
     {
       school: "중부대학교",
       schoolEn: "Joongbu University",
-      major: "정보보호학전공",
+      major: "정보보호학과",
       majorEn: "Department of Information Security",
       degree: "공학사",
       degreeEn: "Bachelor's'",
