@@ -24,83 +24,66 @@ export const careerDetailSections: CareerDetailSection[] = [
   {
     id: "OCSF",
     title: "OCSF 기반 보안 로그 통합 및 분석 프로젝트",
-    titleEn: "Microservices Architecture Migration",
+    titleEn: "OCSF-Based SEcurity Log Integration and Analysis",
     background: [
       {
-        text: "테크코프의 핵심 서비스는 모놀리식 아키텍처로 구축되어 있었으며, 사용자 수가 급증하면서 확장성과 배포 속도에 심각한 병목이 발생했습니다.",
+        text: "Nginx, BIND9, AWS CloudTrail 등 환경마다 포맷이 상이한 로그들은 각각의 구조를 개별적으로 파악해야 했고, 이는 분석 효율을 크게 저하시켰습니다.",
         textEn:
-          "TechCorp's core service was built on a monolithic architecture, and rapid user growth created severe bottlenecks in scalability and deployment speed.",
+          "Logs from environments like Nginx, BIND9, and AWS CloudTrail each had different formats, requiring individual parsing - signigicantly reducing analysis efficiency.",
       },
       {
-        text: "단일 코드베이스에서 40명 이상의 엔지니어가 동시에 작업하면서 코드 충돌과 배포 지연이 빈번하게 발생했고, 주간 배포가 2주에 1회로 지연되는 상황이었습니다.",
+        text: "다양한 소스의 로그를 통합 분석하려면 공통된 데이터 모델이 필요했으나, 기존 환경에는 이를 지원하는 표준화 체계가 부재했습니다.",
         textEn:
-          "With 40+ engineers working on a single codebase simultaneously, code conflicts and deployment delays were frequent, with weekly deployments slipping to biweekly.",
+          "Integrating logs from multiple sources required a common data model, but the existing environment lacked any standardization framework to support this.",
       },
       {
-        text: "비즈니스 성장을 지원하기 위해 서비스 분리와 독립적 배포가 가능한 마이크로서비스 아키텍처로의 전환을 최우선 과제로 설정했습니다.",
+        text: "로그 분석 자동화 및 실시간 위협 탐지를 위해 공통 포맷 기반의 통합 파이프랑니 구축이 필요하다고 판단했습니다.",
         textEn:
-          "To support business growth, migrating to a microservices architecture enabling service isolation and independent deployments was set as the top priority.",
+          "It was determined that building an integrated pipeline based on a common format was necessary for log analysis automation and real-time threat detection.",
       },
     ],
     role: [
       {
-        title: "아키텍처 설계",
-        titleEn: "Architecture Design",
+        title: "팀장 및 공격 시나리오 설계",
+        titleEn: "Team Lead & Attack Scenario Design",
         items: [
           {
-            text: "도메인 분석을 통해 서비스 경계를 정의하고, 12개 마이크로서비스로 분리하는 로드맵을 수립했습니다.",
+            text: "프로젝트 전반을 리드하며 팀원 역할 분담, 일정 관리, 기술 방향 결정을 담당했습니다.",
             textEn:
-              "Defined service boundaries through domain analysis and established a roadmap for decomposition into 12 microservices.",
+              "Led the overall project, handling role assignment, schedule management, and technical direction.",
             subItems: [
               {
-                text: "DDD(Domain-Driven Design) 원칙을 적용하여 Bounded Context를 식별하고, 각 서비스의 책임 범위를 명확히 정의했습니다.",
+                text: "리눅스 환경 기반의 공격 시나리오를 직접 설계하고, 각  시리오별 실행 흐름과 예상 로그 패턴을 정의했습니다.",
                 textEn:
-                  "Applied DDD principles to identify Bounded Contexts and clearly defined each service's responsibility scope.",
+                  "Personally designed attack scenarios for Linux environments and defined the execution flow and expected log patterns for each scenario.",
               },
               {
-                text: "서비스 간 데이터 일관성을 보장하기 위해 Saga 패턴과 이벤트 소싱 전략을 설계했습니다.",
+                text: "CVE 취약점을 시나리오에 맞게 선정하고, PoC를 활용해 실제 공격 행위를 재현하여 탐지 가능 로그를 생성했습니다.",
                 textEn:
-                  "Designed Saga patterns and event sourcing strategies to ensure data consistency across services.",
-              },
-            ],
-          },
-          {
-            text: "이벤트 드리븐 아키텍처를 기반으로 서비스 간 비동기 통신 체계를 구축했습니다.",
-            textEn:
-              "Built an asynchronous inter-service communication framework based on event-driven architecture.",
-            subItems: [
-              {
-                text: "Apache Kafka를 메시지 브로커로 도입하고, 이벤트 스키마 레지스트리를 구축하여 서비스 간 계약을 관리했습니다.",
-                textEn:
-                  "Introduced Apache Kafka as the message broker and built an event schema registry to manage inter-service contracts.",
-              },
-              {
-                text: "Dead Letter Queue와 재시도 메커니즘을 구현하여 메시지 처리 신뢰성을 99.9%로 향상시켰습니다.",
-                textEn:
-                  "Implemented Dead Letter Queue and retry mechanisms, improving message processing reliability to 99.9%.",
+                  "Selected CVE vulnerabilities suited to each scenario and reproduced actual attack behaviors using PoCs to generate detectable logs.",
               },
             ],
           },
         ],
       },
       {
-        title: "점진적 마이그레이션",
-        titleEn: "Incremental Migration",
+        title: "로그 수집 및 정제",
+        titleEn: "Log Collection & Scenario Design",
         items: [
           {
-            text: "Strangler Fig 패턴을 적용하여 무중단으로 점진적 마이그레이션을 수행했습니다.",
+            text: "공격 시나리오 실행 후 발생하는 로그를 수집하고, 분석에 적합한 형태로 정규화하는 작업을 수행했습니다.",
             textEn:
-              "Applied the Strangler Fig pattern to perform zero-downtime incremental migration.",
+              "Collected logs generated after running attack scenarios and performed normalization into a format suitable for analysis.",
             subItems: [
               {
-                text: "API Gateway를 통한 트래픽 라우팅으로 신구 시스템 간 점진적 전환을 구현했습니다.",
+                text: "Filebeat 및 Logstash를 활용해 다양한 소스의 로그를 파이프라인으로 수집했습니다.",
                 textEn:
-                  "Implemented gradual transition between old and new systems via API Gateway traffic routing.",
+                  "Used Filebeat and Logstash to collect logs from various sources via pipeline.",
               },
               {
-                text: "각 서비스별 카나리 배포 전략을 수립하여 리스크를 최소화했습니다.",
+                text: "불필요한 필드 제거, 필드명 표준화, OCSF 포맷 매핑을 통해 ELK에서 일관된 분석이 가능하도록 정제했습니다.",
                 textEn:
-                  "Established canary deployment strategies per service to minimize risk.",
+                  "Normalized data through unnecessary field removal, field name standardization, and OCSF format mapping to enable consistent analysis in ELK.",
               },
             ],
           },
@@ -109,31 +92,36 @@ export const careerDetailSections: CareerDetailSection[] = [
     ],
     results: [
       {
-        text: "6개월에 걸친 점진적 마이그레이션을 통해 서비스 다운타임 없이 12개 마이크로서비스로 성공적으로 전환했습니다.",
+        text: "이기종 로그 소스를 단일 OCSF 포맷으로 정규화하여 분석 시간을 단춝하고, 공통 쿼리로 다양한 환경의 위협을 탐지할 수 있는 구조를 확립했습니다.",
         textEn:
-          "Successfully migrated to 12 microservices over 6 months with zero service downtime through incremental migration.",
+          "Normalized heterogeneous log sources into a single OCSF format, reducing analysis time and establishing a structure capable of detecting threats across various environments using common queirs.",
       },
       {
-        text: "배포 주기가 2주 1회에서 일 3회 이상으로 개선되었고, 개별 서비스의 독립적 배포가 가능해져 팀 생산성이 크게 향상되었습니다.",
+        text: "Sigma Rules 기반 탐지 룰을 ElastAlert와 연동해 실시간 알림 파이프라인을 구현했으며, 탐지 결과를 Slack으로 즉시 전달하는 자동화 흐름을 완성했습니다.",
         textEn:
-          "Deployment frequency improved from biweekly to 3+ times daily, with independent service deployments significantly boosting team productivity.",
+          "Implemented a real-time alert pipeline by integrating Sigma Rules-based detection rules with ElastAlert, completing an automated flow that instantly delivers detection results to Slack.",
       },
       {
-        text: "시스템 확장성이 개선되어 트래픽 급증 시에도 자동 스케일링으로 안정적인 서비스 운영이 가능해졌습니다.",
+        text: "표준화된 로그 포맷 도입으로 신규 로그 소스 추가 시 확장성이 확보되어, 향후 보안 관제 자동화의 기반이 될 가능성이 있는 프레임워크를 구축했습니다.",
         textEn:
-          "Improved system scalability enabled stable service operation through auto-scaling even during traffic spikes.",
+          "By adopting a standardized log format, extensiblility was secured when adding new log sources - building a framework with potential to serve as the foundation for future security monitoring automation.",
       },
     ],
     lessons: [
       {
-        text: "마이크로서비스 전환에서 가장 큰 도전은 기술적 복잡성이 아닌 팀 간 소통과 합의 도출이었습니다. 서비스 경계를 정의하는 과정에서 각 팀의 도메인 지식을 존중하면서도 전체 시스템의 일관성을 유지하는 균형점을 찾는 것이 핵심이었습니다.",
+        text: "로그 정규화는 단순 포맷 변환이 아닌 데이터 의미론적 일관성을 유지하는 설계 문제임을 체감했으며, 필드 매핑 오류 하나가 탐지 룰 전체에 영향을 미칠 수 있다는 점을 배웠습니다.",
         textEn:
-          "The biggest challenge in microservices migration was not technical complexity but inter-team communication and consensus building. The key was finding a balance between respecting each team's domain knowledge and maintaining overall system consistency when defining service boundaries.",
+          "Experienced firsthand that log normalization is a design problem of maintaining semantic consistency in data, not just format conversion - and learned that a single field mapping error can affect an entire detection ruleset.",
       },
       {
-        text: "점진적 마이그레이션 전략의 중요성을 체감했습니다. Big Bang 방식 대신 Strangler Fig 패턴을 선택함으로써 리스크를 관리하면서도 비즈니스 연속성을 보장할 수 있었고, 각 단계에서 얻은 학습을 다음 단계에 반영할 수 있었습니다.",
+        text: "Sigma Rules는 플랫폼 독립적인 탐지 언어로서 강력하지만, ElastAlert 변환 과정에서 필드명 불일치 문제가 빈번하게 발생해 파이프라인 검증의 중요성을 깨달았습니다.",
         textEn:
-          "Experienced the importance of incremental migration strategy firsthand. Choosing the Strangler Fig pattern over a Big Bang approach allowed us to manage risk while ensuring business continuity, and apply learnings from each phase to the next.",
+          "Sigma Rules is powerful as a platform-independent detection language, but frequent field name mismatches during ElastAlert conversion highlighted the importance of thorough pipeline validation.",
+      },
+      {
+        text: "보안 자동화는 개별 툴의 이해보다 툴 간 데이터 흐름 설계가 핵심임을 이 프로젝트를 통해 실감했습니다.",
+        textEn:
+          "Through this project, realized that security automation hinges on designing the data flow between tools, more than understanding each tool individually.",
       },
     ],
   },
