@@ -37,7 +37,7 @@ export const careerDetailSections: CareerDetailSection[] = [
           "Integrating logs from multiple sources required a common data model, but the existing environment lacked any standardization framework to support this.",
       },
       {
-        text: "로그 분석 자동화 및 실시간 위협 탐지를 위해 공통 포맷 기반의 통합 파이프랑니 구축이 필요하다고 판단했습니다.",
+        text: "로그 분석 자동화 및 실시간 위협 탐지를 위해 공통 포맷 기반의 통합 파이프라인 구축이 필요하다고 판단했습니다.",
         textEn:
           "It was determined that building an integrated pipeline based on a common format was necessary for log analysis automation and real-time threat detection.",
       },
