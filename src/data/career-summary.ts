@@ -26,20 +26,6 @@ export const careerHighlights: CareerHighlight[] = [
     ],
   },
   {
-    title: "오픈소스 이메일 보안 솔루션",
-    titleEn: "Large-Scale Traffic Performance Optimization",
-    items: [
-      "머신러닝(앙상블, 나이브베이즈, 랜덤포레스트, 로지스틱 회귀 등) 기반 스팸·악성 메일 탐지 모델 구축",
-      "Spam Assassin·ClamAV·Cuckoo Sandbox 연동 통합 보안 파이프라인 구현",
-      "한국융합보안학회(KCSA) 하계 학술대회 논문 장려상 수상",
-    ],
-    itemsEn: [
-      "Built spam & malicious email detection model using ML algorithms (Ensemble, Naive Bayes, Random Forest, Logistic Regression)",
-      "Implemented integrated security pipeline with SpamAssassin, ClamAV, and Cuckoo Sandbox",
-      "Ecouragement Award at Korea Convergency Security Association (KCSA) Summer Conference",
-    ],
-  },
-  {
     title: "사용자 행위 기반 구글 워크스페이스 분석 및 이상 탐지 솔루션",
     titleEn: "Engineering Culture & Team Leadership",
     items: [
@@ -51,6 +37,20 @@ export const careerHighlights: CareerHighlight[] = [
       "Developed anomaly detection solution based on user behavior analysis",
       "Built Google Workspace log collection and behavior pattern analysis pipeline",
       "Best Paper Award at Korea Convergence SEcurity Association (KCSA) Fall Conference",
+    ],
+  },
+  {
+    title: "오픈소스 이메일 보안 솔루션",
+    titleEn: "Large-Scale Traffic Performance Optimization",
+    items: [
+      "머신러닝(앙상블, 나이브베이즈, 랜덤포레스트, 로지스틱 회귀 등) 기반 스팸·악성 메일 탐지 모델 구축",
+      "Spam Assassin·ClamAV·Cuckoo Sandbox 연동 통합 보안 파이프라인 구현",
+      "한국융합보안학회(KCSA) 하계 학술대회 논문 장려상 수상",
+    ],
+    itemsEn: [
+      "Built spam & malicious email detection model using ML algorithms (Ensemble, Naive Bayes, Random Forest, Logistic Regression)",
+      "Implemented integrated security pipeline with SpamAssassin, ClamAV, and Cuckoo Sandbox",
+      "Ecouragement Award at Korea Convergency Security Association (KCSA) Summer Conference",
     ],
   },
   {
