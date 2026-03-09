@@ -226,7 +226,7 @@ export const careerDetailSections: CareerDetailSection[] = [
   },
   {
     id: "email",
-    title: "오픈소스 이메일 솔루션",
+    title: "오픈소스 이메일 보안 솔루션",
     titleEn: "Open-Source Email Security Solution",
     background: [
       {
