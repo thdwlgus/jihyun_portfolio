@@ -6,7 +6,7 @@ export interface CareerHighlight {
 }
 
 export const careerOverview = {
-  ko: "정보보호학전공 학부 연구생으로 로그 분석·위협 탐지·보안 자동화 분야에서 경험을 쌓아왔습니다. CCIT 정보보안 SW융합전공, Whitehat School 3기 활동을 통해 공격과 방어 양면의 보안 역량을 키웠으며, 학술 논문 게재 및 다수의 프로젝트 리드 경험을 보유하고 있습니다.",
+  ko: "정보보호학과 학부 연구생으로 로그 분석·위협 탐지·보안 자동화 분야에서 경험을 쌓아왔습니다. CCIT 정보보안 SW융합전공, Whitehat School 3기 활동을 통해 공격과 방어 양면의 보안 역량을 키웠으며, 학술 논문 게재 및 다수의 프로젝트 리드 경험을 보유하고 있습니다.",
   en: "As an Information Security undergraduate Researcher, I have built experience in log analysis, threat detection, and security automation. Through the CCIT information Security & SW Covergency program and Whitehat School 3rd cohort, I have developed both offensive and defensive security capabilities, with experience in academic paper publication and leading multiple projects.",
 };
 
