@@ -92,7 +92,7 @@ export const careerDetailSections: CareerDetailSection[] = [
     ],
     results: [
       {
-        text: "이기종 로그 소스를 단일 OCSF 포맷으로 정규화하여 분석 시간을 단춝하고, 공통 쿼리로 다양한 환경의 위협을 탐지할 수 있는 구조를 확립했습니다.",
+        text: "이기종 로그 소스를 단일 OCSF 포맷으로 정규화하여 분석 시간을 단축하고, 공통 쿼리로 다양한 환경의 위협을 탐지할 수 있는 구조를 확립했습니다.",
         textEn:
           "Normalized heterogeneous log sources into a single OCSF format, reducing analysis time and establishing a structure capable of detecting threats across various environments using common queirs.",
       },
