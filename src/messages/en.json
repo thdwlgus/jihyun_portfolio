@@ -19,7 +19,7 @@
   "about": {
     "heading": "About",
     "description_1": "Magoring in S/W Convergence and having gone through Whitehat School, I have builet hands-on research experience in log analysis, threat detection, and security automation. I focus not just on implementation, but on designing practical security systems that can respond to real-world threats.",
-    "description_2": "Building on that experience, I conuinue to broaden my perspective on security research, with the goal of pursuing deeper study through graduate school in 2026",
+    "description_2": "Building on hands-on experience, I am broadening the scope of my security research and continuously strengthening my practical capabilities.",
     "description_3": "I have developend and led projects including an open-source email security solution using ML ensembles, a user behavior-based anomaly detection system for Google Workspace, an OCSF-based security log integration and analysis framework, and a malicious document-focused email security solution.",
     "keywords": ["Information Security", "Security Researcher", "Developer"]
   },
